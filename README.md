@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ meteo quote "Plainsboro, NJ"
+    $ meteo quote "Moscow, RU" --units=metric
 
 ## Contributing
 

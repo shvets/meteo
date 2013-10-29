@@ -13,7 +13,8 @@ class MeteoCLI < Thor
     You can optionally specify a second parameter, which will print
     out a from message as well.
 
-    > $ meteo quote "plainsboro, nj"
+    > $ meteo quote "Plainsboro, NJ"
+    > $ meteo quote "Moscow, RU" --units=metric
   LONGDESC
   option :units
   def quote(location)
