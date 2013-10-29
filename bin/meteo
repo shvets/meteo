@@ -4,6 +4,4 @@ $:.unshift(File::join(File::dirname(File::dirname(__FILE__)), "lib"))
 
 require 'meteo/meteo_cli'
 
-cli = MeteoCli.new
-
-cli.run ARGV
+MeteoCLI.start ARGV
