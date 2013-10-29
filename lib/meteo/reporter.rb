@@ -52,7 +52,7 @@ module Reporter
       #{text}Temperature #{data}#{temperature}#{scale}
       #{text}Humidity #{data}#{humidity}%
       #{text}Wind #{data}#{wind}#{speed_unit}
-      #{text}Pressure #{data}#{pressure} #{pressure_unit}
+      #{text}Pressure #{data}#{pressure}#{pressure_unit}
       #{text}Sunrise #{data}#{Time.at(sunrise).strftime('%I:%M:%S%p')}
       #{text}Sunset #{data}#{Time.at(sunset).strftime('%I:%M:%S%p')}#{stop}
     )

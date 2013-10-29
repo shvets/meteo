@@ -13,10 +13,10 @@ class MeteoCLI < Thor
     You can optionally specify a second parameter, which will print
     out a from message as well.
 
-    > $ meteo quote "Plainsboro, NJ"
-    > $ meteo quote "Moscow, RU" --units=metric
+    > $ meteo Plainsboro, NJ
+    > $ meteo Moscow, RU --units=metric
   LONGDESC
-  option :units
+  option :units, :aliases => "-u"
   def quote(location)
     units = options[:units] ? options[:units] : "imperial"
 
@@ -24,7 +24,11 @@ class MeteoCLI < Thor
 
     response = JSON.parse(service.quote(location, units))
 
-    puts report(response, units).join(' ')
+    if response["message"]
+      puts response["message"]
+    else
+      puts report(response, units).join(' ')
+    end
   end
 
 end

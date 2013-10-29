@@ -4,4 +4,25 @@ $:.unshift(File::join(File::dirname(File::dirname(__FILE__)), "lib"))
 
 require 'meteo/meteo_cli'
 
-MeteoCLI.start ARGV
+params = []
+
+units = "imperial"
+
+index = 0
+
+while index < ARGV.size do
+  param = ARGV[index]
+
+  if param =~ /--units=/ or param =~ /-u=/
+    units = ARGV[index][ARGV[index].index("=")+1..-1]
+  elsif param =~ /--units/ or param =~ /-u/
+    units = ARGV[index+1]
+    index = index + 1
+  else
+    params << param
+  end
+
+  index = index + 1
+end
+
+MeteoCLI.start ["quote", "--units=#{units}", "#{params.join(' ')}"]

@@ -18,8 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-    $ meteo quote "Plainsboro, NJ"
-    $ meteo quote "Moscow, RU" --units=metric
+    $ meteo Plainsboro, NJ
+    $ meteo Moscow, RU --units=metric
+
+## Note
+
+This gem was inspired by another GitHub project, [AnsiWeather] (https://github.com/fcambus/ansiweather),
+written in shell.
 
 ## Contributing
 
