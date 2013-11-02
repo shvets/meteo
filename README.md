@@ -24,7 +24,7 @@ Or install it yourself as:
 ## Note
 
 This gem was inspired by another GitHub project, [AnsiWeather] (https://github.com/fcambus/ansiweather),
-written in shell.
+written in shell script language.
 
 ## Contributing
 
