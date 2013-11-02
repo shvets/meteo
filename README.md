@@ -1,6 +1,6 @@
 # Meteo
 
-Provides command line access to OpenWeatherMap service
+Provides command line access to [OpenWeatherMap] (http://openweathermap.org) service
 
 ## Installation
 
