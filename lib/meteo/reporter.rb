@@ -71,6 +71,13 @@ module Reporter
 
       when 'Fog'
         "fog"
+
+      when 'Snow'
+        "snow"
+
+      when 'Thunderstorm'
+        "thunderstorm"
+
       else
         (period == "night") ? 'moon' : 'sun'
     end
@@ -91,4 +98,21 @@ module Reporter
   def clouds
     "\033[37;1m\xe2\x98\x81"
   end
+
+  def rain
+    "\xe2\x98\x94"
+  end
+
+  def fog
+    "\033[37;1m\xe2\x96\x92"
+  end
+
+  def snow
+    "\033[37;1m\xe2\x9d\x84"
+  end
+
+  def thunderstorm
+    "\xe2\x9a\xa1"
+  end
+
 end
