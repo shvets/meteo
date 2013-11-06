@@ -91,4 +91,12 @@ module Reporter
   def clouds
     "\033[37;1m\xe2\x98\x81"
   end
+
+  def rain
+    "\033[37;1m\xe2\x98\x94"
+  end
+
+  def fog
+    "\033[37:2m\xe2\x96\x92"
+  end
 end
