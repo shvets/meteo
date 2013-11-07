@@ -7,6 +7,7 @@ require 'meteo/meteo_cli'
 params = []
 
 units = "imperial"
+forecast = 0
 
 index = 0
 
@@ -18,6 +19,11 @@ while index < ARGV.size do
   elsif param =~ /--units/ or param =~ /-u/
     units = ARGV[index+1]
     index = index + 1
+  elsif param =~ /--forecast=/ or param =~ /-f=/
+    forecast = ARGV[index][ARGV[index].index("=")+1..-1]
+  elsif param =~ /--forecast/ or param =~ /-f/
+    forecast = ARGV[index+1]
+    index = index + 1
   else
     params << param
   end
@@ -25,4 +31,4 @@ while index < ARGV.size do
   index = index + 1
 end
 
-MeteoCLI.start ["quote", "--units=#{units}", "#{params.join(' ')}"]
+MeteoCLI.start ["quote", "--units=#{units}", "--forecast=#{forecast}", "#{params.join(' ')}"]

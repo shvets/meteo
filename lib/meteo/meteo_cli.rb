@@ -1,10 +1,9 @@
 require "thor"
-require 'json'
-require 'meteo'
-require 'meteo/reporter'
+require 'meteo/meteo'
+require 'meteo/geo'
+require 'meteo/weather_reporter'
 
 class MeteoCLI < Thor
-  include Reporter
 
   desc "quote location", "quote weather for location"
   long_desc <<-LONGDESC
@@ -15,20 +14,23 @@ class MeteoCLI < Thor
 
     > $ meteo Plainsboro, NJ
     > $ meteo Moscow, RU --units=metric
+    > $ meteo # get weather for current location based on IP address
   LONGDESC
   option :units, :aliases => "-u"
+  option :forecast
   def quote(location)
+    location = (location.nil? or location.strip.size == 0) ? Geo.new.quote : location
+
     units = options[:units] ? options[:units] : "imperial"
+    forecast = options[:forecast] ? options[:forecast].to_i : 0
 
-    service = Meteo.new
+    service = Meteo.new(forecast > 0)
 
-    response = JSON.parse(service.quote(location, units))
+    response = service.quote(location, units)
 
-    if response["message"]
-      puts response["message"]
-    else
-      puts report(response, units).join(' ')
-    end
+    reporter = WeatherReporter.new
+
+    reporter.report(response, units, forecast)
   end
 
 end
