@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4937121-0f49-4d4a-a62d-d6641e02fbe7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES" afterPath="$PROJECT_DIR$/CHANGES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/meteo/meteo_cli.rb" afterPath="$PROJECT_DIR$/lib/meteo/meteo_cli.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/meteo/version.rb" afterPath="$PROJECT_DIR$/lib/meteo/version.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="meteo.iws" />
@@ -28,8 +31,8 @@
     <SUITE FILE_PATH="coverage/meteo@Meteo_quote_gets_the_quote__meteo.coverage" NAME="Meteo#quote gets the quote: meteo Coverage Results" MODIFIED="1383864740645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="meteo" />
     <SUITE FILE_PATH="coverage/meteo@meteo.coverage" NAME="meteo Coverage Results" MODIFIED="1383842248156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" MODULE_NAME="meteo" />
     <SUITE FILE_PATH="coverage/meteo@Geo_quote_gets_the_quote__meteo.coverage" NAME="Geo#quote gets the quote: meteo Coverage Results" MODIFIED="1383864734905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="meteo" />
-    <SUITE FILE_PATH="coverage/meteo@WeatherReporter_has_expected_meteo_status_instance_methods__meteo.coverage" NAME="WeatherReporter has expected meteo status instance methods: meteo Coverage Results" MODIFIED="1383864746565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="meteo" />
     <SUITE FILE_PATH="coverage/meteo@Reporter_has_expected_meteo_status_instance_methods__meteo.coverage" NAME="Reporter has expected meteo status instance methods: meteo Coverage Results" MODIFIED="1383836576127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="meteo" />
+    <SUITE FILE_PATH="coverage/meteo@WeatherReporter_has_expected_meteo_status_instance_methods__meteo.coverage" NAME="WeatherReporter has expected meteo status instance methods: meteo Coverage Results" MODIFIED="1383864746565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="meteo" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -46,56 +49,7 @@
       <file leaf-file-name="meteo_cli.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/meteo/meteo_cli.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meteo_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/meteo_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weather_reporter_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/weather_reporter_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="256">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weather_reporter.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/meteo/weather_reporter.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="124" selection-start="3074" selection-end="3074" vertical-scroll-proportion="-57.846153" vertical-offset="0" max-vertical-offset="2448">
-              <folding>
-                <marker date="1383864658000" expanded="true" signature="192:3902" placeholder=" ... end" />
-                <marker date="1383864658000" expanded="true" signature="363:368" placeholder=" ... end" />
-                <marker date="1383864658000" expanded="true" signature="3038:3392" placeholder="#..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CHANGES" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CHANGES">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="123" selection-start="74" selection-end="74" vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="560">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="geo_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/geo_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320">
+            <state line="11" column="16" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
               <folding />
             </state>
           </provider>
@@ -110,28 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meteo.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/meteo/meteo.rb">
+      <file leaf-file-name="CHANGES" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CHANGES">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="geo.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/meteo/geo.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="36" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="416">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/meteo/colors.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="4" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+            <state line="18" column="16" selection-start="180" selection-end="180" vertical-scroll-proportion="0.49399656" vertical-offset="0" max-vertical-offset="583">
               <folding />
             </state>
           </provider>
@@ -163,13 +99,13 @@
         <option value="$PROJECT_DIR$/lib/meteo/geo.rb" />
         <option value="$PROJECT_DIR$/bin/meteo" />
         <option value="$PROJECT_DIR$/spec/weather_reporter_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/meteo/meteo_cli.rb" />
         <option value="$PROJECT_DIR$/lib/meteo/colors.rb" />
         <option value="$PROJECT_DIR$/test.json" />
         <option value="$PROJECT_DIR$/test.rb" />
         <option value="$PROJECT_DIR$/lib/meteo/weather_reporter.rb" />
-        <option value="$PROJECT_DIR$/lib/meteo/version.rb" />
         <option value="$PROJECT_DIR$/spec/geo_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/meteo/meteo_cli.rb" />
+        <option value="$PROJECT_DIR$/lib/meteo/version.rb" />
         <option value="$PROJECT_DIR$/CHANGES" />
       </list>
     </option>
@@ -268,6 +204,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="meteo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,11 +501,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.WeatherReporter has expected meteo status instance methods: meteo" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Meteo#quote gets the quote: meteo" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.meteo" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.WeatherReporter has expected meteo status instance methods: meteo" />
         <item index="2" class="java.lang.String" itemvalue="RSpec.Geo#quote gets the quote: meteo" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.meteo" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Reporter has expected meteo status instance methods: meteo" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Reporter has expected meteo status instance methods: meteo" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Meteo#quote gets the quote: meteo" />
       </list>
     </recent_temporary>
   </component>
@@ -618,7 +568,11 @@
       <created>1383864789010</created>
       <updated>1383864789010</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding forecast flag&#10;">
+      <created>1383864853037</created>
+      <updated>1383864853037</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -627,22 +581,22 @@
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29689297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26215646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26638478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272101" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dilbert" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3049482" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -660,7 +614,8 @@
     <MESSAGE value="initial release&#10;" />
     <MESSAGE value="bug fixes&#10;" />
     <MESSAGE value="adding forecast flag" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding forecast flag" />
+    <MESSAGE value="adding forecast flag&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding forecast flag&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -676,7 +631,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/lib/meteo/meteo_cli.rb</url>
-          <line>21</line>
+          <line>18</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
@@ -684,56 +639,19 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="127" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="125" selection-start="82" selection-end="82" vertical-scroll-proportion="0.086330935" vertical-offset="0" max-vertical-offset="556" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448@meteo/gems/thor-0.18.1/lib/thor/base.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="438" column="25" selection-start="15170" selection-end="15170" vertical-scroll-proportion="0.33264032" vertical-offset="6848" max-vertical-offset="10528" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/meteo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="640">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/time.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="6" selection-start="1431" selection-end="1431" vertical-scroll-proportion="1.3150685" vertical-offset="0" max-vertical-offset="8752">
-          <folding />
-        </state>
+        <state line="48" column="6" selection-start="1431" selection-end="1431" vertical-scroll-proportion="1.3150685" vertical-offset="0" max-vertical-offset="8752" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/meteo.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="112">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/meteo/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/meteo/meteo_cli.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="672">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="112" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/meteo/meteo.rb">
@@ -745,32 +663,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/meteo/geo.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="36" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="416">
+        <state line="13" column="36" selection-start="247" selection-end="247" vertical-scroll-proportion="0.3567753" vertical-offset="0" max-vertical-offset="583">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/meteo/colors.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="4" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+        <state line="52" column="4" selection-start="556" selection-end="556" vertical-scroll-proportion="0.780446" vertical-offset="377" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/meteo/weather_reporter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="124" selection-start="3074" selection-end="3074" vertical-scroll-proportion="-57.846153" vertical-offset="0" max-vertical-offset="2448">
+        <state line="94" column="124" selection-start="3074" selection-end="3074" vertical-scroll-proportion="0.0" vertical-offset="1504" max-vertical-offset="2448">
           <folding>
-            <marker date="1383864658000" expanded="true" signature="192:3902" placeholder=" ... end" />
-            <marker date="1383864658000" expanded="true" signature="363:368" placeholder=" ... end" />
-            <marker date="1383864658000" expanded="true" signature="3038:3392" placeholder="#..." />
+            <marker date="1383864658000" expanded="true" signature="-1:-1" placeholder=" ... end" />
+            <marker date="1383864658000" expanded="true" signature="-1:-1" placeholder=" ... end" />
+            <marker date="1383864658000" expanded="true" signature="-1:-1" placeholder="#..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/geo_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320">
+        <state line="8" column="14" selection-start="178" selection-end="178" vertical-scroll-proportion="0.21955404" vertical-offset="0" max-vertical-offset="583">
           <folding />
         </state>
       </provider>
@@ -784,14 +702,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/weather_reporter_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="256">
+        <state line="7" column="20" selection-start="247" selection-end="247" vertical-scroll-proportion="0.19210978" vertical-offset="0" max-vertical-offset="583">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="32" selection-start="0" selection-end="1072" vertical-scroll-proportion="0.48920864" vertical-offset="0" max-vertical-offset="556">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="31" selection-end="65" vertical-scroll-proportion="0.057142857" vertical-offset="0" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/meteo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="150" selection-end="150" vertical-scroll-proportion="0.21955404" vertical-offset="0" max-vertical-offset="640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/meteo/meteo_cli.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/meteo/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CHANGES">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="123" selection-start="74" selection-end="74" vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="560">
+        <state line="18" column="16" selection-start="180" selection-end="180" vertical-scroll-proportion="0.49399656" vertical-offset="0" max-vertical-offset="583">
           <folding />
         </state>
       </provider>

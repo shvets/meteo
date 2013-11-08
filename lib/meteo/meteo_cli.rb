@@ -9,9 +9,6 @@ class MeteoCLI < Thor
   long_desc <<-LONGDESC
     `meteo` will print weather quote for requested city.
 
-    You can optionally specify a second parameter, which will print
-    out a from message as well.
-
     > $ meteo Plainsboro, NJ
     > $ meteo Moscow, RU --units=metric
     > $ meteo # get weather for current location based on IP address
