@@ -117,7 +117,7 @@ class WeatherReporter
     end
   end
 
-  def current_period
+  def current_period sunset, sunrise
     current_time = Time.now.to_i
 
     if current_time >= sunset or current_time <= sunrise
